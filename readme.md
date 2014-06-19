@@ -1,6 +1,6 @@
-# certifi [![Build Status](https://travis-ci.org/sindresorhus/certifi.svg?branch=master)](https://travis-ci.org/sindresorhus/certifi)
+# certifi [![Build Status](https://travis-ci.org/sindresorhus/node-certifi.svg?branch=master)](https://travis-ci.org/sindresorhus/node-certifi)
 
-> [Certifi](http://certifi.io) is a carefully curated collection of Root Certificates for validating the trustworthiness of SSL certificates while verifying the identity of TLS hosts. It has been extracted from the Requests project.
+> [Certifi](http://certifi.io) is a carefully curated collection of Root Certificates for validating the trustworthiness of SSL certificates while verifying the identity of TLS hosts. It has been extracted from the Python Requests project.
 
 
 ## Install
