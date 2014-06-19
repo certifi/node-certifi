@@ -1,6 +1,6 @@
 {
   "name": "certifi",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "A carefully curated collection of Root Certificates for validating the trustworthiness of SSL certificates while verifying the identity of TLS hosts. It has been extracted from the Python Requests project",
   "license": "MIT",
   "repository": "sindresorhus/node-certifi",
