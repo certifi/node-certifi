@@ -1,0 +1,34 @@
+{
+  "name": "certifi",
+  "version": "0.0.0",
+  "description": "A carefully curated collection of Root Certificates for validating the trustworthiness of SSL certificates while verifying the identity of TLS hosts. It has been extracted from the Python Requests project",
+  "license": "MIT",
+  "repository": "sindresorhus/node-certifi",
+  "author": {
+    "name": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "http://sindresorhus.com"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "files": [
+    "index.js",
+    "cacert.pem"
+  ],
+  "keywords": [
+    "ca",
+    "cert",
+    "certificate",
+    "pem",
+    "ssl",
+    "tls",
+    "https"
+  ],
+  "devDependencies": {
+    "mocha": "*"
+  }
+}
