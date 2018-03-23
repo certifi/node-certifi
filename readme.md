@@ -5,22 +5,22 @@
 
 ## Install
 
-```sh
-$ npm install --save certifi
+```
+$ npm install certifi
 ```
 
 
 ## Usage
 
 ```js
-var fs = require('fs');
-var https = require('https');
-var certifi = require('certifi');
+const fs = require('fs');
+const https = require('https');
+const certifi = require('certifi');
 
 console.log(certifi);
-//=> /User/sindresorhus/node-certifi/cacert.pem
+//=> '/User/sindresorhus/node-certifi/cacert.pem'
 
 https.createServer({
 	cert: fs.readFileSync(certifi)
-}, function () {});
+}, () => {});
 ```

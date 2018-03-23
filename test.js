@@ -1,7 +1,6 @@
-'use strict';
-var assert = require('assert');
-var certifi = require('./');
+import test from 'ava';
+import m from '.';
 
-it('should return the path to the cert', function () {
-	assert(certifi.indexOf('cacert.pem') !== -1);
+test('returns the path to the certificate', t => {
+	t.true(m.includes('cacert.pem'));
 });

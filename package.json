@@ -1,34 +1,35 @@
 {
-  "name": "certifi",
-  "version": "14.5.15",
-  "description": "A carefully curated collection of Root Certificates for validating the trustworthiness of SSL certificates while verifying the identity of TLS hosts. It has been extracted from the Python Requests project",
-  "license": "MPL-2.0",
-  "repository": "certifi/node-certifi",
-  "author": {
-    "name": "Sindre Sorhus",
-    "email": "sindresorhus@gmail.com",
-    "url": "http://sindresorhus.com"
-  },
-  "engines": {
-    "node": ">=0.10.0"
-  },
-  "scripts": {
-    "test": "mocha"
-  },
-  "files": [
-    "index.js",
-    "cacert.pem"
-  ],
-  "keywords": [
-    "ca",
-    "cert",
-    "certificate",
-    "pem",
-    "ssl",
-    "tls",
-    "https"
-  ],
-  "devDependencies": {
-    "mocha": "*"
-  }
+	"name": "certifi",
+	"version": "14.5.15",
+	"description": "A carefully curated collection of Root Certificates for validating the trustworthiness of SSL certificates while verifying the identity of TLS hosts. It has been extracted from the Python Requests project",
+	"license": "MPL-2.0",
+	"repository": "certifi/node-certifi",
+	"author": {
+		"name": "Sindre Sorhus",
+		"email": "sindresorhus@gmail.com",
+		"url": "sindresorhus.com"
+	},
+	"engines": {
+		"node": ">=6"
+	},
+	"scripts": {
+		"test": "xo && ava"
+	},
+	"files": [
+		"index.js",
+		"cacert.pem"
+	],
+	"keywords": [
+		"ca",
+		"cert",
+		"certificate",
+		"pem",
+		"ssl",
+		"tls",
+		"https"
+	],
+	"devDependencies": {
+		"ava": "*",
+		"xo": "*"
+	}
 }
