@@ -9,7 +9,6 @@
 $ npm install certifi
 ```
 
-
 ## Usage
 
 ```js
@@ -23,4 +22,12 @@ console.log(certifi);
 https.createServer({
 	cert: fs.readFileSync(certifi)
 }, () => {});
+```
+
+## Updating `cacert.pem`
+
+To update the `cacert.pem` to the latest version, run the following command:
+
+```
+make cacert.pem
 ```
